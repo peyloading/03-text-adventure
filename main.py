@@ -9,16 +9,22 @@ logging.basicConfig(format='[%(filename)s:%(lineno)d] %(message)s', level=loggin
 logger = logging.getLogger(__name__)
 
 
-def render():
+def render(game,current):
     ''' Display the current location'''
+    r = game['rooms']
+    c = r[current]
+   
+     print('\n\nYou are in the {name}' .format(name=c['name']))
+     print(c['desc'])
 return True
 
 def update():
     '''Update our location, if possible, etc.'''
+    for e in game['rooms'][current]['exits']
 
 def check_input():
     '''get user input'''
-    response = input('What would you like to do?')
+    response = input('What would you like to do?').strip().upper()
     return response
 
 
