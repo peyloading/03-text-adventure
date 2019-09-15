@@ -13,6 +13,14 @@
         "map": "NORTH"
       },
       {
+        "v": "BACK",
+        "map": "BACK"
+      },
+      {
+        "v": "B",
+        "map": "BACK"
+      },
+      {
         "v": "N",
         "map": "NORTH"
       },
@@ -43,38 +51,183 @@
     ],
     "rooms": {
       "START": {
-        "name": "haunted house",
-        "desc": "This is the haunted house!",
+        "name": "woods",
+        "desc": "Your car billows thick smoke behind you. You are surrounded by woods on your left and right. There is a path leading to your north. ",
         "exits": [
           {
             "verb": "NORTH",
-            "target": "LOC2",
+            "target": "FOH",
             "condition": ""
           },
           {
             "verb": "SOUTH",
-            "target": "LOC32",
+            "target": "CAR",
             "condition": ""
           },
           {
             "verb": "WEST",
-            "target": "LOC2",
+            "target": "WDS",
             "condition": ""
           },
           {
             "verb": "EAST",
-            "target": "LOC2",
+            "target": "WDS",
             "condition": ""
           }
         ],
         "inventory": []
       },
-      "LOC2": {
-        "name": "Location 2",
-        "desc": "Here is the second location.",
+      "FOH": {
+        "name": "front of the mysterious house",
+        "desc": "You walk down the path to see a large old house. The porch seems to decay as you scan your eyes over it. The door is half open, but you can't hear anything from inside.",
         "exits": [
+          {
+            "verb": "NORTH",
+            "target": "ENT",
+            "condition": ""
+          },
+          {
+            "verb": "BACK",
+            "target": "START",
+            "condition": ""
+          }
         ],
         "inventory": []
+      },
+      "CAR": {
+        "name":"front of the car",
+        "desc":"Yep, not gonna be driving that anytime soon.",
+        "exits":
+        [
+          {
+            "verb": "BACK",
+            "target": "START",
+            "condition": ""
+          }
+        ],
+        "inventory":[]
+      },
+      "WDS": {
+        "name":"Woods",
+        "desc":"You are surrounded by lots of trees. There's not much you can make out through the darkness.",
+        "exits":
+        [
+          {
+            "verb": "BACK",
+            "target": "START",
+            "condition": ""
+          }
+        ],
+        "inventory":[]
+      },
+      "ENT": {
+        "name":"entryway",
+        "desc":"You step into the entryway and look around. There are stairs to the north of you that lead to a dark upstairs area. To your right there's a long hallway with a few open doors.",
+        "exits":
+        [
+          {
+            "verb": "NORTH",
+            "target": "UPS",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "HA1",
+            "condition": ""
+          },
+          {
+            "verb": "BACK",
+            "target": "FOH",
+            "condition": ""
+          }
+
+        ],
+        "inventory":[]
+      },
+      "UPS": {
+        "name":"upstairs",
+        "desc":"The upstairs ceilings are so low you have to duck your head. It smells deeply of mold and mothballs. From your spot at the top of the stairs you can see a large window to your north and a door to your west with a large number of chains on it.",
+        "exits":
+        [
+          {
+            "verb": "WEST",
+            "target": "CHA",
+            "condition": ""
+          },
+          {
+            "verb": "NORTH",
+            "target": "WND",
+            "condition": ""
+          },
+          {
+            "verb": "BACK",
+            "target": "ENT",
+            "condition": ""
+          }
+
+
+
+        ],
+        "inventory":[]
+      },
+      "HA1": {
+        "name":"hallway",
+        "desc":"The hallway is long and narrow, but most of the doors have locks on them. A painting hung on the wall has been half torn down. The north of the hallway has a single door that's unlocked.",
+        "exits":
+        [
+          {
+            "verb": "BACK",
+            "target": "ENT",
+            "condition": ""
+          },
+          {
+            "verb": "NORTH",
+            "target": "BAL",
+            "condition": ""
+          }
+
+        ],
+        "inventory":[]
+      },
+      "BAL": {
+        "name":"ballroom",
+        "desc":"You walk inside a huge spacious room with pretty furnishings that have aged quite a bit. You can faintly hear the music that used to be performed here. A dusty piano lurks in the corner.",
+        "exits":
+        [
+          {
+            "verb": "BACK",
+            "target": "HA1",
+            "condition": ""
+          }
+        ],
+        "inventory":[]
+      },
+      "CHA": {
+        "name":"front of the chained door",
+        "desc":"Upon closer inspection, the chains are weirdly new looking. The shiny metal looks so different to the rest of the house. The chains look very sturdy. They won't be coming off easily.",
+        "exits":
+        [
+          {
+            "verb": "BACK",
+            "target": "UPS",
+            "condition": ""
+          }
+        ],
+        "inventory":[]
+      },
+      "WND": {
+        "name":"window",
+        "desc":"The top pane of the window is cracked so you had to peer out the bottom. Theres a large backyard with a swingset visible in the back of the house. The left swingset swings a bit because of the wind..?",
+        "exits":
+        [
+          {
+            "verb": "BACK",
+            "target": "UPS",
+            "condition": ""
+          }
+        ],
+        "inventory":[]
       }
+
     }
   }

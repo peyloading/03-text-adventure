@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 
 
 
-
+print('Your car was making a funny noise so you pulled over. Upon further inspection of the engine, it blows up in your face. Hahaha. ')
 # Game loop functions
 def render(game,current,moves,points):
     ''' Displays the current room, moves, and points '''
@@ -28,7 +28,7 @@ def render(game,current,moves,points):
 def getInput(game,current,verbs):
     ''' Asks the user for input and normalizes the inputted value. Returns a list of commands '''
 
-    toReturn = input('\nWhat would you like to do? ').strip().upper().split()
+    toReturn = input('\nWhere would you like to go? ').strip().upper().split()
     if (len(toReturn)):
         #assume the first word is the verb
         toReturn[0] = normalizeVerb(toReturn[0],verbs)
