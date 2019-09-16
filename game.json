@@ -45,6 +45,14 @@
         "map": "WEST"
       },
       {
+        "v": "DRIVE",
+        "map": "DRIVE"
+      },
+      {
+        "v": "DRIVE",
+        "map": "D"
+      },
+      {
         "v": "W",
         "map": "WEST"
       }
@@ -102,6 +110,11 @@
           {
             "verb": "BACK",
             "target": "START",
+            "condition": ""
+          },
+          {
+            "verb": "DRIVE",
+            "target": "END",
             "condition": ""
           }
         ],
@@ -227,7 +240,14 @@
           }
         ],
         "inventory":[]
+      },
+      "END": {
+        "name":"END",
+        "desc":"END",
+        "exits":
+        [
+        ],
+        "inventory":[]
       }
-
     }
   }
