@@ -14,7 +14,7 @@ def render(game,current):
     r = game['rooms']
     c = r[current]
    
-     print('\n\nYou are in the {name}' .format(name=c['name']))
+    print('\n\nYou are in the {name}' .format(name=c['name']))
      print(c['desc'])
 return True
 
