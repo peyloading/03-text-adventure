@@ -1,0 +1,44 @@
+Name:Safiyyah Abd'Llah
+Date:9/28/2019
+Project: Peer Review Text Adventure
+Peer's repository: Peyton Conner
+
+
+
+What is something you learned by reviewing your peer's project?
+I learned that the file main.py did not run when I selected run file in terminal due to an indentation error.
+However, I did not not know how to fix this error. I also learned how if and elif statements can be used in the game engine with 
+functions. That is something I struggled to do for my game. 
+
+ 
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+The use of functions in my peers project definitely allowed for more complexity in the game and therefore, more interest and fun. 
+I wish I knew how to impliment functions in my text adventure game at the time. 
+ 
+
+What suggestions would you have for your peer to improve his/her code?
+I would suggest including a begining to the game and story. Some sort of welcome or greeting that would make the user/player prepared for the game. 
+The begining was a bit unexpected. 
+
+What could have been clearer or better commented?
+Instructions on how to play the game could have been clearer. Since there were many responses the player could have chosen, it 
+would have helped to lay out some instructions. 
+ 
+
+Was there anything in the code that was confusing to you? If so, what?
+Yes, I don't understand how to use the render, update, input functions so I couldn't understand the code although it appears 
+consistent, thoughtout and accurate. 
+ 
+
+Does the repository contain an appropriate LICENSE?
+Yes it does. Well done!
+ 
+
+What is something he/she could add to the README.md to make it more descriptive?
+He/she could have added more about the game. I couldn't figure out how to play the game and how to explore the many rooms. 
+ 
+
+Pay a compliment to your peer based on the quality of his/her code.
+Well done!
+I like your squiggly brackets inside your print statements. 
