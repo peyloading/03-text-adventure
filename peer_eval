@@ -1,0 +1,37 @@
+Name: Caitlin Morton
+Date: 10 - 4 - 19
+Project: text adventure
+Peer's repository: https://github.com/nyx-19/03-text-adventure-2.git
+
+
+
+What is something you learned by reviewing your peer's project?
+I learned  that she was able to use the same verbs to lead her around to different destinations.
+I created new verbs for every action when it looks like I could have used them more than once and just changed the destination.
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+She split up her endings making it more than just a final destination you assume to be the end to a genuine ending. This was
+I think a part of the greater code that she worked off as a template, but I still liked it and would want to use it myself.
+
+What suggestions would you have for your peer to improve his/her code?
+no, her code was solid. There weren't any issues since this project was only about entering script and linking rooms.
+ 
+
+What could have been clearer or better commented?
+her code is self explanatory
+ 
+
+Was there anything in the code that was confusing to you? If so, what?
+No, it mostly made sense to me. lines 44 through 52 of the game engine file were a bit confusing.
+ 
+
+Does the repository contain an appropriate LICENSE?
+Yes.
+ 
+
+What is something he/she could add to the README.md to make it more descriptive?
+Maybe explain what the commands she used do? I'm not sure if that would be required for the readme.
+ 
+
+Pay a compliment to your peer based on the quality of his/her code.
+It was impressive for her to use the more complicated code to make her game with knowing
